@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Backups do banco de dados
+*.backup
+*.dump
+*.sql.gz
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Temporários
+*.tmp

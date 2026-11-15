@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: amigo-da-vizinhanca
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: DATABASE_URL
+        sync: false        # cole a string do Neon no painel do Render
+      - key: JWT_SECRET
+        generateValue: true  # o Render gera um valor aleatório seguro
