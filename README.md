@@ -2,7 +2,7 @@
 
 Loja online de um pequeno comércio de bairro: catálogo de produtos, carrinho, cadastro/login de clientes e finalização de compra com baixa automática de estoque.
 
-> **🔗 Aplicação no ar:** `https://SEU-SERVICO.onrender.com` ← *substitua após o deploy (veja "Publicação" abaixo)*
+> **🔗 Aplicação no ar:** [https://amigo-da-vizinhanca.onrender.com](https://amigo-da-vizinhanca.onrender.com)
 >
 > ⏱️ No plano gratuito do Render o serviço hiberna após alguns minutos sem acesso; a primeira visita pode levar de 30 a 60 segundos.
 
@@ -82,8 +82,7 @@ Gerar um `JWT_SECRET`: `node -e "console.log(require('crypto').randomBytes(48).t
 2. **GitHub:** envie o código para o repositório (o `.env` **não** é versionado).
 3. **Aplicação (Render):** em [render.com](https://render.com) escolha *New → Blueprint* e selecione o repositório (o `render.yaml` já configura tudo), ou crie um *Web Service* manualmente com `Build: npm install` e `Start: npm start`.
 4. No painel do serviço, em *Environment*, defina `DATABASE_URL` (string do Neon) e `JWT_SECRET`.
-5. No primeiro start, as tabelas e os produtos iniciais são criados automaticamente. Confira `https://SEU-SERVICO.onrender.com/api/health` → `{"status":"ok"}`.
-6. Cole o endereço final na linha "Aplicação no ar" no topo deste README.
+5. No primeiro start, as tabelas e os produtos iniciais são criados automaticamente. Confira `https://SEU-SERVICO.onrender.com/api/health` (no projeto oficial: [/api/health](https://amigo-da-vizinhanca.onrender.com/api/health)) → `{"status":"ok"}`.
 
 ## API
 
