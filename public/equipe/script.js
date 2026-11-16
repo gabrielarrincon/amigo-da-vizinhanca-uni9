@@ -7,35 +7,35 @@ const people = [
         name: "Gabriela Rincon",
         description: "Desenvolvedora Back-end. Responsável pela lógica e integração com o banco de dados e refatoramento do código.",
         contato: "https://www.linkedin.com/in/gabrielarrincon",
-        photo: "imagens/gabriela.jpg"
+        photo: "public/imagens/gabriela.jpg"
     },
     {
         name: "Valéria Gomes Ferreira",
         description: "Desenvolvedora Front-end. Responsável pela criação das interfaces e experiência visual do projeto.",
         contato: "https://www.linkedin.com/in/val%C3%A9ria-gomes-723355385/",
-        photo: "imagens/valeria.jpg"
+        photo: "public/imagens/valeria.jpg"
     },
     {
         name: "Kaique Bierbaumer",
         description: "Desenvolvedor Back-end. Responsável pela implementação do carrinho de compras integrado ao PostgreSQL, desenvolvendo as funções de adicionar, consultar, atualizar e remover produtos, além de conectar o frontend ao backend e testar o funcionamento do sistema.",
-        photo: "imagens/kaique.jpg"
+        photo: "public/imagens/kaique.jpg"
     },
     {
         name: "Guilherme Raffa",
         description: "Desenvolvedor Front-end. Responsável pela identidade visual e responsividade do projeto.",
         contato: "https://www.linkedin.com/in/guilherme-raffa-4b765220a/",
-        photo: "imagens/Guilherme.jpg"
+        photo: "public/imagens/Guilherme.jpg"
     },
     {
         name: "Gilberto Menezes",
         description: "Desenvolvedor Back-end. Responsável pelo desenvolvimento e integração da API.",
-        photo: "imagens/gilberto.jpg"
+        photo: "public/imagens/gilberto.jpg"
     },
     {
         name: "Nicolly Fiuza Jacobete",
         description: "Analista de projetos. Responsável pela implantação, conclusão e referências do projeto.",
         contato: "@xnickxz",
-        photo: "imagens/nicolly.jpg"
+        photo: "public/imagens/nicolly.jpg"
     }
 ];
 
