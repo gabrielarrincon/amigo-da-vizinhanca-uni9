@@ -5,24 +5,38 @@
 
 const people = [
     {
-        name: "João Silva",
-        description: "Desenvolvedor Front-end. Responsável pela criação das interfaces e experiência visual do projeto.",
-        photo: "imagens/joao.jpg"
+        name: "Gabriela Rincon",
+        description: "Desenvolvedora Back-end. Responsável pela lógica e integração com o banco de dados e refatoramento do código.",
+        contato: https://www.linkedin.com/in/gabrielarrincon
+        photo: "imagens/gabriela.jpg"
     },
     {
-        name: "Maria Oliveira",
-        description: "Designer UI/UX. Responsável pela identidade visual e prototipação das telas.",
-        photo: "imagens/maria.jpg"
+        name: "Valéria Gomes Ferreira",
+        description: "Desenvolvedora Front-end. Responsável pela criação das interfaces e experiência visual do projeto.",
+        contato: https://www.linkedin.com/in/val%C3%A9ria-gomes-723355385/
+        photo: "imagens/valeria.jpg"
     },
     {
-        name: "Pedro Santos",
-        description: "Desenvolvedor Back-end. Responsável pela lógica e integração com o banco de dados.",
-        photo: "imagens/pedro.jpg"
+        name: "Kaique Bierbaumer",
+        description: "Desenvolvedor Back-end. Responsável pela lógica e integração com o banco de dados e front-end do projeto.",
+        photo: "imagens/kaique.jpg"
     },
     {
-        name: "Ana Costa",
-        description: "Analista de projetos. Responsável pela organização e acompanhamento das atividades do grupo.",
-        photo: "imagens/ana.jpg"
+        name: "Guilherme Raffa",
+        description: "Desenvolvedor Front-end. Responsável pela identidade visual e responsividade do projeto.",
+        contato:https://www.linkedin.com/in/guilherme-raffa-4b765220a/
+        photo: "imagens/Guilherme.jpg"
+    },
+    {
+        name: "Gilberto Menezes",
+        description: "Desenvolvedor Back-end. Responsável pelo desenvolvimento e integração da API.",
+        photo: "imagens/gilberto.jpg"
+    },
+    {
+        name: "Nicolly Fiuza Jacobete",
+        description: "Analista de projetos. Responsável pela implantação, conclusão e referências do projeto.",
+        contato: @xnickxz
+        photo: "imagens/nicolly.jpg"
     }
 ];
 
